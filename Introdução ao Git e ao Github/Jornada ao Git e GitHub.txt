@@ -55,3 +55,22 @@ Escolha as preferências
 Concluindo cadastro ao preencher todas as informações necessárias e preferências.
 Confirme seu endereço de email
 
+- Criando Repositorio - 
+
+clique na sua foto de perfil no canto superior direito da página inicial do GitHub e selecione a opção "Your repositories" no menu suspenso.
+
+No canto superior direito da página "Your repositories", você verá um botão verde com a inscrição "New" clique nele.
+Você será direcionado para a página de criação de um novo repositório.
+Preencha as informações do repositório:
+
+Escolha um nome para o seu repositório. O nome deve ser único na sua conta do GitHub.
+Você pode optar por tornar o repositório público ou privado.
+Lembre-se de que os repositórios privados geralmente requerem uma assinatura paga.
+Adicione uma descrição para o seu repositório, se desejar.
+Escolha se deseja inicializar o repositório com um arquivo README.
+Isso é útil para fornecer informações sobre o projeto.
+Escolha as configurações adicionais (opcional).
+
+Você pode adicionar um arquivo .gitignore para especificar quais arquivos e diretórios devem ser ignorados pelo Git.
+Você também pode adicionar uma licença ao seu projeto, o que é uma boa prática para especificar como outras pessoas podem usar seu código.
+Clique em "Create repository" (Criar repositório): Após preencher todas as informações necessárias, clique no botão verde "Create repository" (Criar repositório) na parte inferior da página.
