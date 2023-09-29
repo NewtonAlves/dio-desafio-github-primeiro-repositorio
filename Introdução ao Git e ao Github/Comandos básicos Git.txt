@@ -1,0 +1,47 @@
+Lista de comandos básicos para uso ao Git
+
+comando - descrição
+
+°Indice
+
+1. **Iniciar um novo repositório:**
+   - `git init`: Inicia um novo repositório Git em um diretório.
+
+2. **Clonar um repositório existente:**
+   - `git clone <URL do repositório>`: Clona um repositório Git existente para o seu sistema local.
+
+3. **Realizar alterações no seu projeto:**
+   - `git add <arquivo>`: Adiciona um arquivo às mudanças que serão registradas (staging).
+   - `git add .` ou `git add -A`: Adiciona todas as mudanças ao staging.
+   - `git commit -m "Mensagem de commit"`: Registra as mudanças no repositório com uma mensagem de commit.
+   
+4. **Verificar o status das mudanças:**
+   - `git status`: Mostra o status das mudanças no seu projeto.
+
+5. **Verificar o histórico de commits:**
+   - `git log`: Exibe o histórico de commits.
+
+6. **Retroceder e desfazer alterações:**
+   - `git reset <arquivo>`: Remove um arquivo do staging, mantendo as alterações no seu diretório de trabalho.
+   - `git reset --soft <commit>`: Desfaz commits, mas mantém as alterações no staging.
+   - `git reset --hard <commit>`: Desfaz commits e remove as alterações do diretório de trabalho.
+
+7. **Criar e gerenciar branches:**
+   - `git branch`: Lista todas as branches no repositório.
+   - `git branch <nome_da_branch>`: Cria uma nova branch.
+   - `git checkout <nome_da_branch>`: Muda para uma branch específica.
+   - `git merge <branch>`: Mescla uma branch com a branch atual.
+   - `git branch -d <nome_da_branch>`: Deleta uma branch.
+
+8. **Trabalhar com repositórios remotos:**
+   - `git remote add <nome_remoto> <URL_do_repositório>`: Adiciona um repositório remoto.
+   - `git push <nome_remoto> <branch>`: Envia commits para um repositório remoto.
+   - `git pull <nome_remoto> <branch>`: Atualiza seu repositório local com as mudanças do repositório remoto.
+   - `git clone <URL_do_repositório>`: Clona um repositório remoto para o seu sistema local.
+
+9. **Resolução de conflitos:**
+   - Durante um merge ou pull, se houver conflitos, você precisará abrir os arquivos e resolver os conflitos manualmente antes de confirmar as mudanças.
+
+10. **Outros comandos úteis:**
+    - `git config`: Configure as configurações do Git, como seu nome de usuário e endereço de e-mail.
+    - `gitignore`: Crie um arquivo `.gitignore` para listar os arquivos e diretórios que você deseja ignorar no controle de versão.
