@@ -1,2 +1,24 @@
 Link para download do Git: https://git-scm.com/downloads
 O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+comandos usados no projeto 
+
+git status
+git add .
+git add -A
+git commit -m ""
+git push origin main
+git clone
+
+
+Link do site GitHub: https://github.com/
+Link para criar conta no GitHub: https://github.com/signup
+
+Cadastro passo a passo GitHub:
+
+digite seu email
+Digite sua senha padrão para logar (não esqueça dela, pós tanto email quanto a senha são necessarias para entrar na sua conta)
+Digite o nome para conta, exemplo: MinhaContaPadrao
+
+
+
